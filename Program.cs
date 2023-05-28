@@ -16,6 +16,11 @@ namespace Logical_Programming
             PrimeNumber primeNumber = new PrimeNumber();
             primeNumber.GeneratePrimeNumber();
 
+            ReverseNumber number = new ReverseNumber();
+            number.GenerateReverseNumber();
+
+
+
         }
     }
     
