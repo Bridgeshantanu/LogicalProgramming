@@ -6,12 +6,15 @@ namespace Logical_Programming
     {
         static void Main(string[] args)
         {
-            
 
+            FibonacciSeries series = new FibonacciSeries();
+            series.GenerateFibonacciSeries();
 
             PerfectNumber perfectNumber = new PerfectNumber();
             perfectNumber.GeneratePerfectNumber();
 
+            PrimeNumber primeNumber = new PrimeNumber();
+            primeNumber.GeneratePrimeNumber();
 
         }
     }
